@@ -1,0 +1,54 @@
+.wrapper {
+    width: 100%;
+    background: rgb(139, 133, 106);
+    background: linear-gradient(332deg, rgb(119, 116, 101) 0%, rgb(54, 77, 82) 100%);
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.recover__step {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.wrapper input {
+    min-width: 200px;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: none;
+
+}
+.wrapper button {
+    display: flex;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+.wrapper button:hover {
+    background-color: rgb(107, 134, 134);
+    transition: 1.4s;
+    transform: scale(1.1) translateY(-5px);
+  }
+  .wrapper a {
+    margin-right: 10px;
+    margin-left: 4px;
+  }
